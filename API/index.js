@@ -10,9 +10,9 @@ app.use(cors());
 app.use(bodyparser.json());
 
 const db = mysql.createConnection({
-  host: 'lawda.org',
+  host: '',
   user: 'root',
-  password: 'yourmom69',
+  password: '',
   database: 'museum',
 });
 
